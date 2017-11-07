@@ -1,0 +1,28 @@
+{
+  "name": "aframe-playground",
+  "description": "aframe-playground.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server --port=7000",
+    "deploy": "ghpages"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "ghpages": "0.0.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "live-server": "^1.2.0",
+    "sass": "^0.5.0"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-boilerplate",
+    "aframe-scene",
+    "webvr",
+    "vr"
+  ]
+}

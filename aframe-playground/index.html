@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>aframe-playground</title>
+    <meta name="description" content="aframe-playground">
+    <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/main.css.map">
+  </head>
+  <body>
+
+    <a-scene>
+      <a-box color="white" position="0 1 -2">
+        <a-animation attribute="rotation"
+               dur="10000"
+               fill="forwards"
+               to="0 360 180 0"
+               repeat="indefinite"></a-animation>
+      </a-box>
+
+      <a-light light="type: ambient; color: #e01c58; intensity: .7;"></a-light>
+      <a-light light="type: directional; color: #1387c4; intensity: 4;" position="-1 1 2"></a-light>
+    </a-scene>
+
+  </body>
+</html>
